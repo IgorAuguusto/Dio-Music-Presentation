@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;;
+}
+
+body {
+    margin-top: 5em;
+}
+
+.Description {
+    width: 50vw;
+    text-align: left;
+    font-size: x-large;
+}
+
+img {
+    width: -webkit-fill-available;
+    width: -moz-available;
+}
+
+.video-container {
+    text-align: center;
+  }
+  
+  .video-container iframe {
+    display: inline-block;
+  }
+  
+@media (width <= 1024px) {
+    .Description{
+        padding: 2em;
+        font-size: medium;
+        width: 100%;
+        max-width: 100vw;
+    }
+
+    .showVideo {
+        width: 200px;
+        height: auto;
+    }
+}
